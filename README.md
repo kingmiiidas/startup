@@ -23,9 +23,11 @@ Zufas connects you with people while helping you to better your wardrobe for FRE
 
 ## Design
 
-![image] (images/login.png)
+![Login-page](images/login.png)
 
-![image] (images/discovery.png)
+![Discovery](images/discovery.png)
+
+![myCloset](images/myCloset.png)
 
 ## Usage of Technologies
 
