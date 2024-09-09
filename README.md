@@ -27,6 +27,8 @@ Zufas connects you with people while helping you to better your wardrobe for FRE
 
 ![Discovery-Page](images/discovery.png)
 
+![my-Closet](images/myCloset.png)
+
 ## Usage of Technologies
 
 - **HTML** - Uses four HTML pages total in correct code structures. One will be used to login, one will be used for the home/discovery page, one for direct messages, and the last will be for their profile.
