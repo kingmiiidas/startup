@@ -25,15 +25,9 @@ Zufas connects you with people while helping you to better your wardrobe for FRE
 
 ![Login-Page](images/login.png)
 
-![Discovery-Page](images/discovery.png)
-
-![my-Closet](images/myCloset.png)
-
-![likes](images/likes.png)
-
 ## Usage of Technologies
 
-- **HTML** - Uses four HTML pages total in correct code structures. One will be used to login, one will be used for the home/discovery page, one for likes, and the last will be for their profile.
+- **HTML** - Uses One HTML page total in correct code structures. One will be used to login, one will be used for the home/discovery page, offers to trade, and offers to buy.
 - **CSS** - Application styling that works visually on different screen sizes. Variety of color and transitions.
 - **React** - Build dynamic interfaces with a component-based approach. Will use react state management features.
 - **Service** - Backend service using the following endpoints:
@@ -48,7 +42,7 @@ Zufas connects you with people while helping you to better your wardrobe for FRE
 
 For this deliverable, I built out the structure of my application using HTML.
 
-- **HTML Pages**: Four HTML pages:
+- **HTML Pages**: One HTML page:
   - **Login Page**: Contains forms for user login.
   - **Discovery Home Page**: Displays a list of posts from all users.
   - **likes Page**: Includes chat interface for sending and receiving likes.
@@ -57,17 +51,12 @@ For this deliverable, I built out the structure of my application using HTML.
 - **Links**:
   - **Login Page**: Links to the Discovery Home Page after successful login.
   - **Discovery Home Page**: Links to individual user profiles and the likes Page.
-  - **likes Page**: Links back to the Discovery Home Page and the Profile Page.
-  - **Profile Page**: Links to the Discovery Home Page and likes Page.
 
 - **Text**:
   - **Discovery Home Page**: Describes each post, including titles and content.
-  - **likes Page**: Displays conversation text and like timestamps.
-  - **Profile Page**: Includes text descriptions of user-uploaded images and profile information.
 
 - **Images**:
   - **Discovery Home Page**: Displays images of clothing articles or other posts.
-  - **Profile Page**: Shows user-uploaded pictures.
 
 - **DB/Login**:
   - **Login Page**: Includes input fields for username and password, and a sign in/create account button.
