@@ -27,13 +27,12 @@ Zufas connects you with people while helping you to better your wardrobe for FRE
 
 ## Usage of Technologies
 
-- **HTML** - Uses One HTML page total in correct code structures. One will be used to login, one will be used for the home/discovery page, offers to trade, and offers to buy.
+- **HTML** - Uses One HTML page total in correct code structures. One will be used to login, for the home/discovery page, offers to trade, and offers to buy.
 - **CSS** - Application styling that works visually on different screen sizes. Variety of color and transitions.
 - **React** - Build dynamic interfaces with a component-based approach. Will use react state management features.
 - **Service** - Backend service using the following endpoints:
   - Login endpoint
   - Posts endpoint
-  - likes endpoint
   - Profile endpoint
 - **DB/Login** - Store old and new users and photos in the database. Credentials securely stored in database. No access to anything unless authenticated.
 - **WebSocket** - Enable real-time communication
@@ -50,7 +49,6 @@ For this deliverable, I built out the structure of my application using HTML.
 
 - **Links**:
   - **Login Page**: Links to the Discovery Home Page after successful login.
-  - **Discovery Home Page**: Links to individual user profiles and the likes Page.
 
 - **Text**:
   - **Discovery Home Page**: Describes each post, including titles and content.
@@ -124,7 +122,6 @@ For this deliverable, the backend services support application functionality.
 - **Endpoints**:
   - **Login Endpoint**: Authenticates users and manages sessions.
   - **Posts Endpoint**: Retrieves and manages posts.
-  - **likes Endpoint**: Handles sending and receiving likes.
   - **Profile Endpoint**: Manages user profile information and uploaded pictures.
 
 - **API Integration**:
