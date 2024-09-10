@@ -44,7 +44,6 @@ For this deliverable, I built out the structure of my application using HTML.
 - **HTML Pages**: One HTML page:
   - **Login Page**: Contains forms for user login.
   - **Discovery Home Page**: Displays a list of posts from all users.
-  - **likes Page**: Includes chat interface for sending and receiving likes.
   - **Profile Page**: Shows the user's uploaded pictures and profile information.
 
 - **Links**:
@@ -60,8 +59,6 @@ For this deliverable, I built out the structure of my application using HTML.
   - **Login Page**: Includes input fields for username and password, and a sign in/create account button.
   - **Discovery Home Page**: Displays posts pulled from the database.
 
-- **WebSocket**:
-  - **likes Page**: Real-time updates for incoming and outgoing likes.
 
 ## Using CSS
 
@@ -94,10 +91,10 @@ For this deliverable, I implemented the application logic and dynamic features u
   - Implemented JavaScript functions to handle user interactions such as form submissions, button clicks, and like sending.
 
 - **Dynamic Content**:
-  - Used JavaScript to dynamically update content based on user actions, such as displaying posts or likes.
+  - Used JavaScript to dynamically update content based on user actions, such as displaying posts.
 
 - **API Integration**:
-  - Incorporated `fetch` API calls to the backend services for login, fetching posts, sending likes, and retrieving user profiles.
+  - Incorporated `fetch` API calls to the backend services for login, fetching posts, and retrieving user profiles.
 
 - **Real-Time Updates**:
   - Implemented polling or other techniques to handle real-time updates where WebSocket is not yet integrated.
@@ -109,11 +106,7 @@ For this deliverable, I used React to build dynamic user interfaces and manage a
 - **Components**:
   - **Login Component**: Handles user authentication.
   - **Discovery Component**: Displays a list of posts with links to user profiles.
-  - **likes Component**: Manages the chat interface.
   - **Profile Component**: Shows user’s uploaded images and profile information.
-
-- **Router**:
-  - Use React Router for navigation between the Login Page, Discovery Home Page, likes Page, and Profile Page.
 
 ## Using Backend Service
 
@@ -155,6 +148,5 @@ For this deliverable, I implemented real-time communication using WebSocket.
   - **Frontend**: Integrated WebSocket client to receive real-time updates.
 
 - **Real-Time Updates**:
-  - **likes Page**: Updated chat interface in real-time with new likes.
   - **Discovery Home Page**: Potentially implemented real-time updates for new posts if applicable.
 
