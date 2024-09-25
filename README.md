@@ -27,7 +27,7 @@ Zufas connects you with people while helping you to better your wardrobe for FRE
 
 ## Usage of Technologies
 
-- **HTML** - Uses One HTML page total in correct code structures. One will be used to login, for the home/discovery page, offers to trade, and offers to buy.
+- **HTML** - Uses two HTML pages total in correct code structures. One will be used to login and one for the home/discovery page, offers to trade, and offers to buy.
 - **CSS** - Application styling that works visually on different screen sizes. Variety of color and transitions.
 - **React** - Build dynamic interfaces with a component-based approach. Will use react state management features.
 - **Service** - Backend service using the following endpoints:
