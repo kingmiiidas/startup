@@ -27,7 +27,7 @@ Zufas connects you with people while helping you to better your wardrobe for FRE
 
 ## Usage of Technologies
 
-- **HTML** - Uses two HTML pages total in correct code structures. One will be used to login and one for the home/discovery page, offers to trade, and offers to buy.
+- **HTML** - Uses two HTML pages total in correct code structures. One will be used to login and one for the home/discovery page, offers to trade, and offers to buy. Added html pages that shows the placeholder information for the login page as well as the discovery page.
 - **CSS** - Application styling that works visually on different screen sizes. Variety of color and transitions.
 - **React** - Build dynamic interfaces with a component-based approach. Will use react state management features.
 - **Service** - Backend service using the following endpoints:
@@ -41,7 +41,7 @@ Zufas connects you with people while helping you to better your wardrobe for FRE
 
 For this deliverable, I built out the structure of my application using HTML.
 
-- **HTML Pages**: One HTML page:
+- **HTML Pages**: Two HTML pages:
   - **Login Page**: Contains forms for user login.
   - **Discovery Home Page**: Displays a list of posts from all users.
   - **Profile Page**: Shows the user's uploaded pictures and profile information.
