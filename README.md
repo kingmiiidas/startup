@@ -30,12 +30,9 @@ Zufas connects you with people while helping you to better your wardrobe for FRE
 - **HTML** - Uses two HTML pages total in correct code structures. One will be used to login and one for the home/discovery page, offers to trade, and offers to buy. Added html pages that shows the placeholder information for the login page as well as the discovery page.
 - **CSS** - Application styling that works visually on different screen sizes. Variety of color and transitions.
 - **React** - Build dynamic interfaces with a component-based approach. Will use react state management features.
-- **Service** - Backend service using the following endpoints:
-  - Login endpoint
-  - Posts endpoint
-  - Profile endpoint
+- **Service** - Use the fetch API to enable HTTP requests. I would also use it to authenticate users, enabling them to make accounts and later sign into those accounts.
 - **DB/Login** - Store old and new users and photos in the database. Credentials securely stored in database. No access to anything unless authenticated.
-- **WebSocket** - Enable real-time communication
+- **WebSocket** - Enable real-time communication. This would be necessary when there are clothes that multiple people want to buy or trade for. When you post your name on an article of clothing, it would show up for everyone, not just the person who put their name. This would be the live part of the app.
 
 ## Using HTML
 
@@ -112,6 +109,8 @@ For this deliverable, I used React to build dynamic user interfaces and manage a
 
 For this deliverable, the backend services support application functionality.
 
+- **Fetch**: Uses fetch to make HTTP requests.
+
 - **Endpoints**:
   - **Login Endpoint**: Authenticates users and manages sessions.
   - **Posts Endpoint**: Retrieves and manages posts.
@@ -144,7 +143,7 @@ For this deliverable, I set up the database and managed user authentication.
 For this deliverable, I implemented real-time communication using WebSocket.
 
 - **WebSocket Connection**:
-  - **Backend**: Set up WebSocket server to handle connections and broadcast likes.
+  - **Backend**: Set up WebSocket server to post names to each publication.
   - **Frontend**: Integrated WebSocket client to receive real-time updates.
 
 - **Real-Time Updates**:
