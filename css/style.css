@@ -1,24 +1,83 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #ffeb72;
+.login-body {
+    background-image: url('loginback.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
 }
-.header {
+
+.backImage {
+    background-image: url('discback.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+}
+
+header {
+    width: 100%;
     text-align: center;
-    padding: 20px;
-    background-color: #fff;
-    border-bottom: 1px solid #ccc;
+    text-decoration-color: white;
+    background-color: rgba(252, 239, 94, 0.8);
+    border-radius: 15px;
+    padding: 20px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px 0; 
 }
-.header h1 {
-    margin: 0;
+
+.forms {
+    color: rgb(236, 100, 10);
+    font-size: 120%;
 }
+
+.h2 {
+    font-style: oblique;
+    text-align: center;
+    font-size: 200%;
+    color: white;
+    -webkit-text-stroke: 1px rgb(236, 97, 17);
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.login-container {
+    text-align: center;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 150%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
 .profile-container {
     display: flex;
     padding: 20px;
-    align-items: center;
+    align-items: left;
     border-bottom: 1px solid #ccc;
+    justify-content: flex-start;
 }
+
 .icon {
     width: 50px;
     height: 50px;

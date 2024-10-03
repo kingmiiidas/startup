@@ -4,39 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        header {
-            width: 100%;
-            text-align: center;
-        }
-        nav a {
-            margin: 0 15px;
-            color: black;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .login-container {
-            text-align: center;
-        }
-        footer {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            color: black;
-            text-align: center;
-            padding: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="login-body">
     <header>
         <nav>
             <a href="index.html">Home</a>
@@ -46,11 +16,9 @@
 
     <main>
         <div class="login-container">
-            <h2>Login Page</h2>
-            <h2>Luke Albrechtsen</h2>
-            <p><a href="https://github.com/kingmiiidas/startup.git">GITHUB</a></p>
+            <h2 class="h2">Login Page</h2>
             <!--<form action="/login" method="post">-->
-            <form action="discovery.html" method="get">
+            <form class="forms" action="discovery.html" method="get">
                 <label for="username">Username:</label><br>
                 <input type="text" id="username" name="username" required><br><br>
 
@@ -65,6 +33,7 @@
 
     <footer>
         <p>Zufas LLC</p>
+        <p><a href="https://github.com/kingmiiidas/startup.git">GITHUB</a></p>
     </footer>
 </body>
 </html>
